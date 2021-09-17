@@ -1,0 +1,33 @@
+{
+  "name": "goit-js-hw-09-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09-gallery/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novakovskaya/goit-js-hw-09-gallery.git"
+  },
+  "keywords": [],
+  "author": "Yulia Novakovskaya <yulya.novakovskaya95@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novakovskaya/goit-js-hw-09-gallery/issues"
+  },
+  "homepage": "https://github.com/novakovskaya/goit-js-hw-09-gallery#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.1",
+    "sass": "^1.41.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
